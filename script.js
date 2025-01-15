@@ -34,7 +34,6 @@ function arenaSweep() {
         player.score += rowCount * 10;
         rowCount *= 2;
 
-        // Increase drop interval by a larger amount when a row is cleared
         if (dropInterval < 1000) {
             dropInterval += 100;
         }
